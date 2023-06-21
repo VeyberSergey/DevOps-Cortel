@@ -219,4 +219,7 @@ Changes to Outputs:
 ## Вывод `outputs`
 
 ![2](./img/2.jpg)
+
+## Ссылка на файлы terraform
+
 [Файлы terraform](/vm-template/terraform-files/ "Файлы terraform") 
