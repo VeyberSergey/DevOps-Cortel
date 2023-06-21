@@ -218,4 +218,4 @@ Changes to Outputs:
 ```
 ## Вывод `outputs`
 
-[2](./img/2.jpg)
+![2](./img/2.jpg)
