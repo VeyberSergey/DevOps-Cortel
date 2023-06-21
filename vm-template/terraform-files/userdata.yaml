@@ -1,0 +1,13 @@
+#cloud-config
+
+groups:
+- ubuntu: [root,sys]
+- cloud-users
+
+users:
+  - default
+  - name: sergey
+    gecos: test with SSH key configured
+    ssh_authorized_keys:
+      ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDNR+YB2/IuzjIXtZ3x66zm3h9VjEH2yySDTCA+Uyw1dImJn2UQH9hBmbVvUzfEXmLehz0+JiXCUWf1BjkolDJzEJQG9oM1VmIxXpJyZHi1iFzsLNoQr1wl/rGZwMAHaPSvYNkyVbqBI9+PEZWCcjh5ZeodISorGi9mbyF2LwaNvW/mMmXWHf+EdtqYz73dlZQIXOKCStzUuDY6QlSd2yPTSsQa7ChSY6mxmD+jVZ0SsQ8vaW7rGKuIfKOwbcOmFU7LYGrpr2Ww/0iiT67LFxnCWoalLnlFvBPFM68djuCgkiDj0YehsqB4/W944pqIl/h6rKwtwcrCVXmBBgRU/iHt sergey@localhost
+    lock_passwd: true
