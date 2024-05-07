@@ -16,3 +16,5 @@
 15. [Результат по работе Основы виртуализации](/OsnVirtualiz/README.md "Результат по работе Основы виртуализации")
 # Основы Terraform
 1. [Основы работы terraform](/vm-template/README.md "Основы работы terraform")
+
+ЧЛЕН 
